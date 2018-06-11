@@ -18,6 +18,6 @@ export default new Router({
     	name: 'detail',
     	component: Detail
     },
-    // { path: '*', redirect: '/' }
+    { path: '*', redirect: '/' }
   ]
 })
