@@ -10,9 +10,7 @@
 		
 		<Button v-on:increment="incrementTotal"></Button>
 
-
-
-		
+		<a href="javascript:;" :to="{ name: 'Tip'}">跳转</a>
 		<div class="content">
 			<ul class="cont_ul">
 				<List v-for="item in items" :price="item.price" :title="item.title" :img="item.img" ></List>
